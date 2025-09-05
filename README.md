@@ -134,6 +134,16 @@ make build
 make run
 ```
 
+### Option 4: Run as Nix package
+
+```bash
+# With Nix installed
+nix run github:Adembc/lazyssh
+
+# Or install globally
+nix profile install github:Adembc/lazyssh
+```
+
 ---
 
 ## ⌨️ Key Bindings
